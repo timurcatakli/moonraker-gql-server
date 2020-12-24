@@ -1,5 +1,5 @@
 {
-  "name": "moon-raker graphql server",
+  "name": "moon-raker",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
