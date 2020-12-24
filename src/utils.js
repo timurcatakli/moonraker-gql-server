@@ -14,3 +14,11 @@ const generateSlug = name => {
 };
 
 module.exports = deepGet;
+
+// DOM Traverse
+/*
+let elements = temp1.querySelectorAll('li');
+for(let elem of elements){
+  console.log(`{name: "${elem.innerText}", link: "${elem.firstElementChild.getAttribute("href")}", children: [],},`)
+}
+*/

@@ -1,7 +1,7 @@
+require("dotenv").config();
 const { RESTDataSource } = require("apollo-datasource-rest");
 const sampleResponse = require("./sample-response");
 const deepGet = require("../utils");
-require("dotenv").config();
 
 class BestsellersAPI extends RESTDataSource {
   constructor() {
