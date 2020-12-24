@@ -14,7 +14,11 @@ const server = new ApolloServer({
   })
 });
 
-server.listen().then(({ url }) => {
+// server.listen().then(({ url }) => {
+//   console.log(`🚀 Server ready at ${url}`);
+//   console.log("🚀Explore at https://studio.apollographql.com/dev");
+// });
+
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
   console.log(`🚀 Server ready at ${url}`);
-  console.log("🚀Explore at https://studio.apollographql.com/dev");
 });
